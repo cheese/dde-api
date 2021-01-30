@@ -52,6 +52,7 @@ BuildRequires:  golang(gopkg.in/alecthomas/kingpin.v2)
 BuildRequires:  golang(github.com/mattn/go-sqlite3)
 BuildRequires:  golang(github.com/gosexy/gettext)
 BuildRequires:  golang(github.com/rickb777/date)
+BuildRequires:  make
 %{?systemd_requires}
 Requires:       deepin-desktop-base
 Requires:       rfkill
